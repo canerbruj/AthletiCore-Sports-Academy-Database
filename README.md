@@ -28,10 +28,10 @@ The database consists of interconnected tables with carefully defined relationsh
 *(See the `docs/` folder for original `.drawio` files and the full project report)*
 
 <p align="center">
-  <img src="docs/er_diagram.png" width="800" alt="ER Diagram">
+  <img src="docs/AthletiCoreDB_ER_Diagram.png" width="800" alt="ER Diagram">
 </p>
 <p align="center">
-  <img src="docs/relational_mapping.png" width="800" alt="Relational Mapping">
+  <img src="docs/AthletiCoreDB_Relational_Mapping.png" width="800" alt="Relational Mapping">
 </p>
 
 ## ⚙️ Normalization Process (1NF to 3NF)
@@ -51,4 +51,5 @@ To make this project easy to navigate, the SQL scripts and documentation are org
   - `02_data_seed.sql`: DML scripts containing mock data for testing.
   - `03_business_queries.sql`: 15 complex business logic queries (e.g., revenue calculation, student-program relationships).
 - `backup/`: Contains the original, full `.sql` database dump.
+
 
