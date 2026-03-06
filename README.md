@@ -15,7 +15,7 @@ The business requirements were determined through one-to-one interviews with coa
 - Managing each academic term's schedule, including class times and responsible coaches.
 - Ensuring the system is scalable to support a growing number of students and minimizes manual paperwork.
 
-## 🏗️ Database Architecture & Relationships
+## 🗃️ Database Architecture & Relationships
 
 The database consists of interconnected tables with carefully defined relationships:
 
@@ -51,6 +51,7 @@ To make this project easy to navigate, the SQL scripts and documentation are org
   - `02_data_seed.sql`: DML scripts containing mock data for testing.
   - `03_business_queries.sql`: 15 complex business logic queries (e.g., revenue calculation, student-program relationships).
 - `backup/`: Contains the original, full `.sql` database dump.
+
 
 
 
