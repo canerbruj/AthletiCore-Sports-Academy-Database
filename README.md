@@ -24,12 +24,15 @@ The database consists of interconnected tables with carefully defined relationsh
 - **Student ↔ Enrollment (1:N):** A student can enroll in multiple programs.
 - **Enrollment ↔ Payment (1:1):** An enrollment can have only one payment. Since payment depends on enrollment, it acts as a weak entity with an identifying relationship.
 
-### ER Diagram & Relational Mapping Process
+### ER Diagram & Relational Mapping
+*(See the `docs/` folder for original `.drawio` files and the full project report)*
 
-_(See the `docs/` folder for original `.drawio` files and the full project report)_
-
-![ER Diagram](docs/AthletiCoreDB_ER_Diagram.png)
-![Relational Mapping](docs/AthletiCoreDB_Relational_Mapping.png)
+<p align="center">
+  <img src="docs/er_diagram.png" width="800" alt="ER Diagram">
+</p>
+<p align="center">
+  <img src="docs/relational_mapping.png" width="800" alt="Relational Mapping">
+</p>
 
 ## ⚙️ Normalization Process (1NF to 3NF)
 
@@ -48,3 +51,4 @@ To make this project easy to navigate, the SQL scripts and documentation are org
   - `02_data_seed.sql`: DML scripts containing mock data for testing.
   - `03_business_queries.sql`: 15 complex business logic queries (e.g., revenue calculation, student-program relationships).
 - `backup/`: Contains the original, full `.sql` database dump.
+
