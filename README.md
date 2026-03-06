@@ -45,11 +45,12 @@ Initially, the `coach` and `student` tables contained multiple addresses per per
 
 To make this project easy to navigate, the SQL scripts and documentation are organized as follows:
 
-- `docs/`: Contains the original `.drawio` source files, high-resolution images of the ER diagram and relational mapping, and the comprehensive PDF project report.
+- `docs/`: Contains the original `.drawio` source files, images of the ER diagram & relational mapping, and the comprehensive PDF project report.
 - `scripts/`:
   - `01_schema.sql`: DDL scripts for creating normalized tables and foreign key constraints.
   - `02_data_seed.sql`: DML scripts containing mock data for testing.
   - `03_business_queries.sql`: 15 complex business logic queries (e.g., revenue calculation, student-program relationships).
 - `backup/`: Contains the original, full `.sql` database dump.
+
 
 
